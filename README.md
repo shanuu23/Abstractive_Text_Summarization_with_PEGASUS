@@ -1,4 +1,4 @@
-# End to End Text-Summarizaer-Project
+# End to End Text-Summarizer-Project
 
 ## Workflows
 1. update config.yaml
