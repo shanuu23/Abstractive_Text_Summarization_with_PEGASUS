@@ -1,4 +1,4 @@
-# End to End Text-Summarizer-Project
+# Abstractive Text Summarization with PEGASUS
 
 ## Workflows
 1. update config.yaml
