@@ -12,7 +12,6 @@
 
 # How to use this project
 
-## Method: 1
 1. Clone this repository
 2. Create a new environment
 3. Run requirements.txt 
