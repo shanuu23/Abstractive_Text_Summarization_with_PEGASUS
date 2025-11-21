@@ -50,43 +50,44 @@ Abstractive_Text_Summarization_with_PEGASUS/
 ```
 ## Installation
 
-Clone the repository
-
+1. Clone the repository
+```bash
 git clone https://github.com/shanuu23/Abstractive_Text_Summarization_with_PEGASUS.git
 cd Abstractive_Text_Summarization_with_PEGASUS
+```
 
+2. Create and activate a virtual environment (recommended)
 
-Create and activate a virtual environment (recommended)
+    A. Create a virtual environment
+     ```bash
+      python -m venv .venv
+    ```
 
-A. Create a virtual environment
+3. Activate it
 
-python -m venv .venv
+  a. On Linux / macOS
+    ```bash
+      source .venv/bin/activate
+    ```
 
+  b. On Windows (PowerShell)
+    ```bash
+      .venv\Scripts\Activate.ps1
+    ```
 
-B. Activate it
+4. Install dependencies
+    ```bash
+      pip install -r requirements.txt
+    ```
 
-a. On Linux / macOS
+5. Run the Web/App Interface
 
-source .venv/bin/activate
-
-
-b. On Windows (PowerShell)
-
-.venv\Scripts\Activate.ps1
-
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Run the Web/App Interface
-
-A. Remove any stale artifacts
-
-rm -rf artifacts
-
-
-B. Run the app
-
-python app.py
+   a. Remove any stale artifacts
+    ```bash
+    rm -rf artifacts
+    ```
+    
+   b. Run the app
+    ```bash
+    python app.py
+    ```
