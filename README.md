@@ -66,14 +66,14 @@ cd Abstractive_Text_Summarization_with_PEGASUS
     B. Activate it
 
       a. On Linux / macOS
-        ```bash
-         source .venv/bin/activate
-        ```
+     ```bash
+       source .venv/bin/activate
+     ```
 
       b. On Windows (PowerShell)
-        ```bash
-          .venv\Scripts\Activate.ps1
-        ```
+     ```bash
+       .venv\Scripts\Activate.ps1
+     ```
 
 3. Install dependencies
     ```bash
