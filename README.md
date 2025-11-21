@@ -48,7 +48,7 @@ Abstractive_Text_Summarization_with_PEGASUS/
 ├─ setup.py              # Package setup file
 └─ README.md             # You are here 🙂
 ```
-Installation
+## Installation
 
 Clone the repository
 
