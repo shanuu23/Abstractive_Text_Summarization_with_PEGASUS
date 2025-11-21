@@ -63,24 +63,24 @@ cd Abstractive_Text_Summarization_with_PEGASUS
       python -m venv .venv
     ```
 
-3. Activate it
+    B. Activate it
 
-  a. On Linux / macOS
-    ```bash
-      source .venv/bin/activate
-    ```
+      a. On Linux / macOS
+        ```bash
+         source .venv/bin/activate
+        ```
 
-  b. On Windows (PowerShell)
-    ```bash
-      .venv\Scripts\Activate.ps1
-    ```
+      b. On Windows (PowerShell)
+        ```bash
+          .venv\Scripts\Activate.ps1
+        ```
 
-4. Install dependencies
+3. Install dependencies
     ```bash
       pip install -r requirements.txt
     ```
 
-5. Run the Web/App Interface
+4. Run the Web/App Interface
 
    a. Remove any stale artifacts
     ```bash
